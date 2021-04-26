@@ -11,10 +11,10 @@ Generator is a neural network which initially takes a noise as input and produce
 As the training progresses the generator produces samples that are very close to the real samples.
 
 
-![alt text](https://github.com/anish-jangra/textToEmojiGAN/blob/[branch]/image.jpg?raw=true)
+![GAN](https://github.com/anish-jangra/textToEmojiGAN/blob/master/gan.png)
 
 Features are extracted from the text and an emoji is generated to the corresponding features.
-For example “A smiling face with black sunglasses” will generate .
+For example “A smiling face with black sunglasses” will generate ![GAN Demo](https://github.com/anish-jangra/textToEmojiGAN/blob/master/gandemo.png).
 
 EmojiOne Data set is used for training.
 TensorFlow is used for implementing the GAN in python.
